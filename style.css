@@ -19,3 +19,26 @@ p {
   text-align: center;
   font-style: italic;
 }
+
+a:hover {
+  background-color: aqua;
+}
+.gridcontain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+.pic {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 20%;
+}
+img {
+  height: 100px;
+}
+ol :nth-child(odd) {
+  background-color: rgb(185, 176, 176);
+  width: 10%;
+}
